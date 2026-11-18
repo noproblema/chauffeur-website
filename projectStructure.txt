@@ -1,0 +1,14 @@
+src/
+├── app/
+│   ├── layout.tsx       # Root layout with fonts and metadata
+│   ├── page.tsx         # Homepage entry point
+│   └── globals.css      # Tailwind directives
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── BookingWidget.tsx
+│   └── ServiceCard.tsx
+├── types/
+│   └── index.ts         # Shared interfaces
+└── lib/
+    └── data.ts          # Static data for services
